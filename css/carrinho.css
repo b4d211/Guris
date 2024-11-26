@@ -1,0 +1,104 @@
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color: #FFFAE9;
+
+}
+.container{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+}
+.container img{
+    width: 100px;
+}
+.container h1{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+}
+.item-carrinho{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.detalhes-produto{
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px; 
+    gap: 25px;
+}
+.remov {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+.remov img{
+    width: 30px;
+}
+hr{
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.detalhes-produto h3{
+    color: #F68600;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+}
+.detalhes-produto p{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+}
+.total-carrinho {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.total-carrinho h1{
+    font-family: "Poppins", serif;
+    color: #F68600;
+}
+.total-carrinho h2{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+}
+.pagar{
+
+}
+.escolha{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.pagar input{
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    background-color: #F68600;
+    border-style: none;
+    border-radius: 76px;
+    cursor: pointer;
+}
+.pagar h3{
+    font-family: "Poppins", serif;
+    font-weight: 300;
+}
+.pagar select{
+    color: #F68600;
+}
+.comfir{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

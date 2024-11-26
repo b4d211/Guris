@@ -1,0 +1,50 @@
+body{
+    background-color: #FFFAE9 ;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    text-align: center;
+    color: #F68600;
+    margin: 10px;
+}
+
+.tudo{
+    background-color: #F6EBC3;
+    padding: 20px;    
+    border-radius: 20px;
+}
+
+.item1{
+    display: flex;
+    flex-direction: column;
+    
+    margin: 20px;
+}
+
+.item2{
+    display: flex;
+    flex-direction: column;
+  
+    margin: 20px;
+}
+
+.itens-pedido{
+   display: flex;
+    flex-direction: column;
+
+    margin: 20px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+}

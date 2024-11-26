@@ -1,0 +1,97 @@
+body{
+    background-color: #FFFAE9;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.title{
+    text-align: center;
+    color: #F68600;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+.lista-compras{
+    display: flex;
+    padding: 20px;
+   
+}
+
+.lista-vendas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pedido-item{
+    margin: 20px;
+    background-color: #F6EBC3;
+    padding: 30px;
+    border-radius: 30px;
+    
+}
+
+.imgusuario{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    flex-direction: column;
+}
+
+.tudo{
+    display: flex;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 7px ;
+}
+
+.status{
+    color: #F68600;
+    margin-left: 8px;
+}
+
+.pendente{
+    display: flex;
+}
+
+.imagem{
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista-pedidos{
+    display: flex;
+}
+
+.botao{
+    border-radius: 20px;
+    padding: 5px;
+    color: #F68600;
+}
+
+.tudo2{
+    margin: 20px;
+    background-color: #F6EBC3;
+    padding: 30px;
+    border-radius: 30px;
+}

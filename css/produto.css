@@ -1,0 +1,35 @@
+.container {
+    background-color: #F6EBC3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 5rem;
+    height: 20rem;
+    width: 40rem;
+    justify-content: center;
+    margin-left: 27rem;
+}
+
+body {
+    background-color: #FFFAE9;
+}
+
+.form-group {
+    text-align: center;
+    
+}
+
+input {
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+}
+
+textarea {
+    border-radius: 20px;
+    border: none;
+    height: 20px;
+    margin-top: 10px;
+}
+
